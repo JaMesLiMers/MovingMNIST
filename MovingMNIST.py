@@ -28,7 +28,7 @@ class MovingMNIST(data.Dataset):
             image and returns a transformed version. E.g, ``transforms.RandomCrop``
     """
     urls = [
-        'https://github.com/JaMesLiMers/MovingMNIST//raw/master/mnist_test_seq.npy.gz'
+        'https://github.com/JaMesLiMers/MovingMNIST/raw/master/mnist_test_seq.npy.gz'
     ]
     raw_folder = 'raw'
     processed_folder = 'processed'
